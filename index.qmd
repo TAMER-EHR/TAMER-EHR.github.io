@@ -9,7 +9,7 @@ comments: false
 
 ## About the project
 
-Linked electronic health records (EHR) are a valuable resource for generating evidence about the effects of treatments. Their scale and detail offer the potential to investigate the effects of complex treatment strategies. 
+Linked electronic health records (EHR) are a valuable resource for generating evidence about the effects of treatments. These data bring together routinely collected data from primary care settings with individually linked data from other settings, for example, hospital records. Their scale and detail offer the potential to investigate the effects of complex treatment strategies. 
 
 However, estimating causal effects from EHR data requires careful consideration. TAMER aims to extend causal inference methods for time-to-event outcomes so that researchers can investigate more complex treatment strategies while addressing two important challenges: **large sample sizes** and **irregular monitoring of individuals**.
 
