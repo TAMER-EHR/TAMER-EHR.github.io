@@ -1,0 +1,86 @@
+/* TAMER website styles */
+:root {
+  --tamer-teal: #00737A;
+  --tamer-teal-dark: #00565c;
+  --tamer-teal-light: #e8f4f4;
+  --tamer-ink: #193638;
+  --tamer-muted: #52696b;
+}
+
+.navbar {
+  box-shadow: 0 2px 12px rgba(0, 40, 45, 0.10);
+}
+.navbar .navbar-brand, .navbar .nav-link { font-weight: 600; }
+.navbar .nav-link:hover { color: #d5f1ef !important; }
+
+#quarto-content { padding-top: 0.5rem; }
+.brand-placeholder {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1rem 0 1.25rem; color: var(--tamer-muted);
+}
+.brand-mark {
+  color: var(--tamer-teal); font-size: 1.7rem; font-weight: 800;
+  letter-spacing: .08em; border-left: 5px solid var(--tamer-teal);
+  padding-left: .7rem;
+}
+.brand-placeholder-label {
+  font-size: .78rem; text-transform: uppercase; letter-spacing: .09em;
+  border: 1px dashed #9bbabb; border-radius: 5px; padding: .35rem .6rem;
+}
+
+.hero {
+  background: linear-gradient(115deg, var(--tamer-teal-dark), var(--tamer-teal));
+  color: #fff; padding: clamp(2.5rem, 6vw, 5rem);
+  border-radius: 14px; margin: .25rem 0 2.5rem;
+  position: relative; overflow: hidden;
+}
+.hero:after {
+  content: ""; position: absolute; width: 320px; height: 320px;
+  right: -110px; bottom: -190px; border: 45px solid rgba(255,255,255,.09);
+  border-radius: 50%;
+}
+.hero .eyebrow {
+  text-transform: uppercase; letter-spacing: .12em; font-size: .78rem;
+  font-weight: 700; opacity: .85;
+}
+.hero h1 { max-width: 850px; color: #fff; font-size: clamp(2rem, 4.5vw, 3.4rem); line-height: 1.12; font-weight: 750; }
+.hero-lede { max-width: 780px; font-size: 1.15rem; line-height: 1.65; opacity: .95; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+.btn-tamer, .btn-tamer-outline {
+  display: inline-block; border-radius: 6px; padding: .75rem 1.1rem;
+  font-weight: 700; text-decoration: none; transition: transform .15s ease;
+}
+.btn-tamer { background: #fff; color: var(--tamer-teal-dark); }
+.btn-tamer-outline { border: 1px solid rgba(255,255,255,.75); color: #fff; }
+.btn-tamer:hover, .btn-tamer-outline:hover { transform: translateY(-2px); text-decoration: none; }
+
+.theme-grid {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem; margin: 1.25rem 0 2rem;
+}
+.theme-card {
+  border: 1px solid #dce8e8; border-top: 4px solid var(--tamer-teal);
+  border-radius: 8px; padding: 1.25rem 1.4rem; background: #fff;
+  box-shadow: 0 5px 18px rgba(0, 55, 60, .045);
+}
+.theme-number { color: var(--tamer-teal); font-size: .8rem; font-weight: 800; letter-spacing: .08em; }
+.theme-card h3 { font-size: 1.15rem; margin: .45rem 0 .5rem; color: var(--tamer-ink); }
+.theme-card p { margin: 0; color: var(--tamer-muted); }
+.home-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin: 1.5rem 0; }
+.home-links a { display: block; border-radius: 7px; border: 1px solid #d8e6e6; padding: 1rem 1.2rem; text-decoration: none; }
+.home-links a:hover { border-color: var(--tamer-teal); background: var(--tamer-teal-light); }
+.home-links strong, .home-links span { display: block; }
+.home-links strong { color: var(--tamer-teal-dark); }
+.home-links span { color: var(--tamer-muted); font-size: .9rem; margin-top: .25rem; }
+
+.funder-statement {
+  margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #dee2e6;
+  font-size: .95rem; color: #495057;
+}
+.funder-statement img.nihr-logo { max-width: 220px; height: auto; margin-bottom: 1rem; }
+.contact-block { margin-top: 1.5rem; font-size: .95rem; }
+
+@media (max-width: 700px) {
+  .theme-grid, .home-links { grid-template-columns: 1fr; }
+  .hero { padding: 2rem 1.4rem; }
+}

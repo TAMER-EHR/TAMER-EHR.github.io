@@ -1,0 +1,19 @@
+---
+title: "Contact us"
+comments: false
+---
+
+Please get in touch with us if you have any questions about the TAMER project! 
+
+## Information
+
+<i class="bi bi-envelope"></i> **Ruth Keogh:**  [ruth.keogh@lshtm.ac.uk](mailto:ruth.keogh@lshtm.ac.uk)
+
+**London School of Hygiene & Tropical Medicine**  
+Keppel Street  
+London  
+WC1E 7HT
+
+## GitHub
+
+[<i class="bi bi-github"></i> TAMER-EHR on GitHub](https://github.com/TAMER-EHR){.github-link}

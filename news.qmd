@@ -1,0 +1,26 @@
+---
+title: "News"
+description: "Latest news, events, and updates"
+---
+
+## Project updates
+
+![](images/tamer-logo-set){width=100% fig-alt="TAMER logo"}
+
+### TAMER project website launched
+
+<small class="text-muted">Project announcement · 3 November 2026</small>
+
+We are pleased to launch the TAMER project website. Here we will share news, information about the team and research, and resources as the project progresses.
+
+<!--
+Suggested format for future news entries (newest first):
+
+![](images/your-image.png){width=100% fig-alt="Describe the image"}
+
+### News headline
+
+<small class="text-muted">Event / announcement · DD Month YYYY</small>
+
+Short summary, with links to papers, events, or resources where relevant.
+-->

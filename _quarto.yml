@@ -1,0 +1,39 @@
+project:
+  type: website
+  resources:
+    - images/**
+
+website:
+  title: "TAMER Project"
+  favicon: images/favicon.png
+  description: "Tailoring methods to reality for causal inference using electronic health records data"
+  navbar:
+    title: "TAMER"
+    logo: images/favicon.png
+    logo-alt: "TAMER lion logo"
+    background: "#0D5257"
+    foreground: "#ffffff"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Team"
+        href: team.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    border: true
+    left: "Funded by the [NIHR](https://www.nihr.ac.uk/)"
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme:
+      - flatly
+      - custom.scss
+    css:
+      - styles.css
+      - team.css
+    toc: false

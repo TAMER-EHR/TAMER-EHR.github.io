@@ -1,0 +1,16 @@
+---
+title: "Team"
+comments: false
+---
+
+## Researchers
+
+|        |        |        |
+|:------:|:------:|:------:|
+| [![RK](images/team/rk.jpeg){.avatar}](https://profiles.lshtm.ac.uk/2472-ruth-keogh/about){target="_blank" rel="noopener"} | [![JT](images/team/jt.jpeg){.avatar}](https://profiles.lshtm.ac.uk/3753-john-tazare){target="_blank" rel="noopener"} | [[LP]{.avatar}](https://profiles.lshtm.ac.uk/4553-leah-pirondini/grants){target="_blank" rel="noopener"} |
+| Ruth Keogh | John Tazare | Leah Pirondini |
+| [![KM](images/team/km.jpeg){.avatar}](https://profiles.lshtm.ac.uk/2674-katy-morgan){target="_blank" rel="noopener"} | [![EW](images/team/ew.jpeg){.avatar}](https://profiles.lshtm.ac.uk/2635-elizabeth-williamson/about){target="_blank" rel="noopener"} | [![KD](images/team/kd.png){.avatar}](https://profiles.ucl.ac.uk/78115-karla-diaz-ordaz){target="_blank" rel="noopener"} |
+| Katy Morgan | Elizabeth Williamson | Karla Diaz Ordaz |
+
+: {.team-grid .borderless tbl-colwidths="[33,33,33]"}
+
